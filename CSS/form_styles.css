@@ -1,0 +1,48 @@
+
+.contact-area{
+  display: flex;
+  justify-content: space-around;
+}
+.contact-text{
+  color: #08071D;
+  width: 40%;
+  margin-top: 10vh;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+  .contact-form{
+  display: flex;
+   flex-direction: column;
+   align-items: center;
+  width: 30%;
+  color: #fff;
+  margin: 5vh 5vw;
+  padding: 2vh 2vw;
+  
+}
+::-moz-placeholder{
+  font-size: 20px;
+  color: #08071D;
+}
+input[type=text], textarea {
+  width: 100%; 
+  height: auto;
+  padding: 12px; 
+  border-radius :4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #7994C9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
