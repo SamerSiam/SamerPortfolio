@@ -20,10 +20,7 @@
   padding: 2vh 2vw;
   
 }
-::-moz-placeholder{
-  font-size: 20px;
-  color: #08071D;
-}
+
 input[type=text], textarea {
   width: 100%; 
   height: auto;
@@ -45,4 +42,8 @@ input[type=submit] {
 }
 input[type=submit]:hover {
   background-color: #45a049;
+}
+::-webkit-input-placeholder{
+  font-size: 20px;
+  color: #08071D;
 }
